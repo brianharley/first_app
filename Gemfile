@@ -3,9 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.1'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
+# gem 'rails', :git => 'git://github.com/rails/rails.git
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -13,13 +11,13 @@ gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
 # Deploy with Capistrano
 # gem 'capistrano'
 
-# To use debugger
+# To use debugger                                        fx
 # gem 'ruby-debug'
 
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', '1.2.5', :group => :development
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
